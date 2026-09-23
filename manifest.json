@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Rend Autofill",
+  "version": "1.0.20",
+  "description": "A personal Chrome extension for application autofill.",
+  "icons": {
+    "16": "assets/icons/rent-autofill-16.png",
+    "32": "assets/icons/rent-autofill-32.png",
+    "48": "assets/icons/rent-autofill-48.png",
+    "128": "assets/icons/rent-autofill-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://jobs.ashbyhq.com/*",
+    "https://app.ashbyhq.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.groq.com/*",
+    "https://openrouter.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/rent-autofill-16.png",
+      "32": "assets/icons/rent-autofill-32.png",
+      "48": "assets/icons/rent-autofill-48.png",
+      "128": "assets/icons/rent-autofill-128.png"
+    }
+  }
+}
